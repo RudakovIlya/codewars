@@ -17,5 +17,6 @@ Good luck!
 
 function solve(a, b) {
     return (a + b).split("").filter(item => !a.includes(item) || !b.includes(item)).join("");
-};
-console.log(solve("xyab", "xzca"))
+}
+
+console.log(solve("xyab", "xzca"));
