@@ -7,7 +7,7 @@ The string may contain any of the 128 ASCII characters. Characters are case-sens
 */
 
 function hasUniqueChars(str) {
-  return new Set(str).size === str.length;
+    return new Set(str).size === str.length;
 }
 
 console.log(hasUniqueChars("abcde"));

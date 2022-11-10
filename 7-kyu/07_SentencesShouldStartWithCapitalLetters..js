@@ -23,9 +23,10 @@ all but the last full stop will be followed by a space and at least one word
 */
 
 function fix(paragraph) {
-  return paragraph
-    .split(". ")
-    .map(item => item.slice(0, 1).toUpperCase() + item.slice(1))
-    .join(". ");
+    return paragraph
+        .split(". ")
+        .map(item => item.slice(0, 1).toUpperCase() + item.slice(1))
+        .join(". ");
 }
+
 console.log(fix("hello. my name is inigo montoya. you killed my father. prepare to die."));

@@ -13,5 +13,5 @@ Examples
 */
 
 function sumEvenNumbers(input) {
-  return input.filter(item => item.toFixed(0) % 2 === 0).reduce((accum, item) => accum + item);
+    return input.filter(item => item.toFixed(0) % 2 === 0).reduce((accum, item) => accum + item);
 }

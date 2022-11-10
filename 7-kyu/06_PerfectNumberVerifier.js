@@ -18,7 +18,7 @@ n = 25 has the following divisors: 1, 5, 25
 */
 
 function isPerfect(n) {
-  return [6, 28, 496, 8128, 33550336, 8589869056, 137438691328].includes(n);
+    return [6, 28, 496, 8128, 33550336, 8589869056, 137438691328].includes(n);
 }
 
 console.log(isPerfect(28));
